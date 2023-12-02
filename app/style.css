@@ -1,0 +1,127 @@
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#517e86c4, #949fdf1a), url(../public/images/Back1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+    color: gray;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+    text-transform: uppercase;
+    color: grey;
+}
+.main-text{
+    text-align: center;
+}
+.hero_btn {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: Add a circular border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+      
+} 
+.blog-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .blog-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  hr { border: 1px solid #ccc;
+     margin: '10px 0' 
+    }
+    .footer {
+      width: 100%;
+      text-align: center;
+      padding: 30px 0;
+      background-color: rgb(86, 73, 73);
+      
+  }
+  
+  .footer h4 {
+      font-weight: 600;
+      margin-bottom: 25px;
+      margin-top: 20px;
+  }
+  
+  .footer a {
+      text-decoration: none;
+      color: #949fdf;
+      font-weight: 600;
+      
+  }
+  .footer p{
+    color: white;
+  }
+  
+  .footer a:hover {
+      color: #24f8c7;
+  }
+  
+  .icons .fab {
+      color: #5236f4;
+      margin: 0 13px;
+      cursor: pointer;
+      padding: 18px 0;
+  }
+  
+  .icons .fab:hover{
+      color: #24f8c7;
+  }
+  
+  .fa-heart {
+      color: #24f8c7;
+  }
+  
+  hr {
+      border: 0.01px solid #7777772a;
+  }
+  
+  .fab:fa-whatsapp{
+    color:  #075E54;
+  }
+  
+  /* Footer Section End */
+
+
+    
+
+     
